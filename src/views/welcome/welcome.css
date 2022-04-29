@@ -1,0 +1,30 @@
+.bg-white {
+  background-color: #fff;
+  height: 100vh;
+  position: relative;
+}
+.bg-image {
+  background-color: #000;
+  height: 100vh;
+  position: relative;
+}
+.bg-white .log-in,
+.bg-image img {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.title {
+  font-size: 57px;
+}
+.paragraph {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  margin-top: 24px;
+}
+.paragraph a {
+  text-decoration: underline;
+}

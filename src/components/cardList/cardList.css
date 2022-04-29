@@ -1,0 +1,19 @@
+.tabs {
+  margin-bottom: 35px;
+}
+.tab {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  display: inline-block;
+  margin-left: 16px;
+}
+.selected {
+  color: #6b6b6b;
+}
+.selected::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: red;
+}

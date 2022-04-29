@@ -1,0 +1,8 @@
+.btn-custom {
+  color: var(--light-principal-primary-b);
+  background: var(--light-principal-primary-a);
+  border-radius: 100px;
+  width: 100%;
+  padding: 16px;
+  margin-top: 42px;
+}
