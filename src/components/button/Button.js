@@ -1,8 +1,15 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+
 import "./button.css";
 
 const ButtonComponent = () => {
-  return <button className="btn-custom">Log in</button>;
+  const navigate = useNavigate();
+  return (
+    <button className="btn-custom" onClick={() => navigate("/")}>
+      Log in
+    </button>
+  );
 };
 
 export default ButtonComponent;

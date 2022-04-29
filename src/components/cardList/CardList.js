@@ -80,7 +80,11 @@ const CardList = () => {
           );
         })}
       </div>
-      <h3>Titular</h3>
+      <ul className="tabs">
+        <li className="tab">Featured Stores</li>
+        <li className="tab selected">Popular this week Stores</li>
+        <li className="tab">Recently visited</li>
+      </ul>
       <div class="grid md:grid-cols-3 grid-cols-1 gap-4">
         {cardArray.map((e, i) => {
           return (
