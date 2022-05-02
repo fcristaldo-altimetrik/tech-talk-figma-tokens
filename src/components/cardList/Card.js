@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./card.css";
+import "./card.scss";
 
 const Card = ({ text, img, chips }) => {
   return (

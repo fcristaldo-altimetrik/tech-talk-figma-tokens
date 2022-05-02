@@ -1,0 +1,21 @@
+@import "../../mixins.scss";
+
+.btn {
+  border-radius: 100px;
+  width: 100%;
+  padding: 16px;
+  .arrow_right {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+.btn-primary {
+  color: var(--light-principal-primary-b);
+  background: var(--light-principal-primary-a);
+}
+
+.btn-outline {
+  color: var(--light-principal-primary-a);
+  border-width: 1px;
+  border-color: var(--light-principal-primary-a);
+}

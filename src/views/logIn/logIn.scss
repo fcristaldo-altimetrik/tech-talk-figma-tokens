@@ -1,0 +1,53 @@
+@import "../../mixins.scss";
+
+.bg-white {
+  background-color: var(--light-backgound-primary);
+  height: 100vh;
+  position: relative;
+  .btn {
+    margin-top: 42px;
+  }
+}
+.bg-image {
+  background-color: var(--light-backgound-inverse-primary);
+  height: 100vh;
+  position: relative;
+}
+.bg-white .log-in,
+.bg-image img {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.title {
+  @include displayLarge(
+    var(--global-font-families-poppins),
+    var(--global-font-weights-poppins-0),
+    calc(var(--global-line-heights-0) * 1px),
+    calc(var(--global-font-size-11) * 1px),
+    calc(var(--global-letter-spacing-0) * 1px),
+    var(--global-text-decoration-none)
+  );
+}
+.paragraph {
+  @include titleSmall(
+    var(--global-font-families-poppins),
+    var(--global-font-weights-poppins-1),
+    calc(var(--global-line-heights-8) * 1px),
+    calc(var(--global-font-size-3) * 1px),
+    calc(var(--global-letter-spacing-2) * 1px),
+    var(--global-text-decoration-none)
+  );
+  text-align: center;
+  margin-top: 24px;
+  a {
+    text-decoration: var(--global-text-decoration-underline);
+  }
+}
+@media only screen and (max-width: 992px) {
+  .bg-hidden {
+    display: none;
+  }
+}

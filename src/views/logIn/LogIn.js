@@ -13,7 +13,7 @@ import InputLabel from "@mui/material/InputLabel";
 import InputAdornment from "@mui/material/InputAdornment";
 import FormControl from "@mui/material/FormControl";
 
-import "./welcome.css";
+import "./logIn.scss";
 
 const arrow_right = (
   <svg
@@ -120,7 +120,7 @@ const userIcon = (
   </svg>
 );
 
-const Welcome = () => {
+const LogIn = () => {
   const [values, setValues] = useState({
     amount: "",
     password: "",
@@ -144,7 +144,7 @@ const Welcome = () => {
     event.preventDefault();
   };
   return (
-    <div class="grid grid-cols-2">
+    <div className="grid grid-cols-1 md:grid-cols-2">
       <div className="bg-white">
         <div className="log-in grid grid-rows-1 grid-flow-col gap-4">
           <div>
@@ -187,19 +187,23 @@ const Welcome = () => {
             <FormGroup>
               <FormControlLabel control={<Checkbox />} label="Remember me" />
             </FormGroup>
-            <ButtonComponent />
+            <ButtonComponent
+              text="Log in"
+              btnStyle="btn-primary"
+              icon={arrow_right}
+            />
             <p className="paragraph">
               If you don't have an account,
-              <a href="#"> Sign up {arrow_right}</a>
+              <a href="#"> Sign up</a>
             </p>
           </div>
         </div>
       </div>
-      <div className="bg-image">
+      <div className="bg-image bg-hidden">
         <img src={welcome_icon} alt="welcome_icon" title="welcome icon" />
       </div>
     </div>
   );
 };
 
-export default Welcome;
+export default LogIn;

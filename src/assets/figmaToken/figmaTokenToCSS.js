@@ -89,11 +89,11 @@ const StyleDictionary = require("style-dictionary")
     source: ["src/assets/figmaToken/tokens.json"],
     platforms: {
       css: {
-        transformGroup: "css",
+        transformGroup: "scss",
         files: [
           {
             format: "css/variables",
-            destination: "src/base.css",
+            destination: "src/base.scss",
           },
         ],
       },

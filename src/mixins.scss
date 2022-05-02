@@ -1,0 +1,423 @@
+@mixin displayLarge(
+  $fontFamilies,
+  $fontWeights,
+  $lineHeights,
+  $fontSize,
+  $letterSpacing,
+  $textDecoration
+) {
+  font-family: $fontFamilies;
+  font-weight: $fontWeights;
+  line-height: $lineHeights;
+  font-size: $fontSize;
+  letter-spacing: $letterSpacing;
+  // paragraph-spacing: "$paragraphSpacing.0";
+  // text-case: "$textCase.none";
+  text-decoration: $textDecoration;
+}
+@mixin displayMedium(
+  $fontFamilies,
+  $fontWeights,
+  $lineHeights,
+  $fontSize,
+  $letterSpacing,
+  $textDecoration
+) {
+  font-family: $fontFamilies;
+  font-weight: $fontWeights;
+  line-height: $lineHeights;
+  font-size: $fontSize;
+  letter-spacing: $letterSpacing;
+  // paragraph-spacing: "$paragraphSpacing.0";
+  // text-case: "$textCase.none";
+  text-decoration: $textDecoration;
+}
+@mixin displaySmall(
+  $fontFamilies,
+  $fontWeights,
+  $lineHeights,
+  $fontSize,
+  $letterSpacing,
+  $textDecoration
+) {
+  font-family: $fontFamilies;
+  font-weight: $fontWeights;
+  line-height: $lineHeights;
+  font-size: $fontSize;
+  letter-spacing: $letterSpacing;
+  // paragraph-spacing: "$paragraphSpacing.0";
+  // text-case: "$textCase.none";
+  text-decoration: $textDecoration;
+}
+
+@mixin headlineLarge(
+  $fontFamilies,
+  $fontWeights,
+  $lineHeights,
+  $fontSize,
+  $letterSpacing,
+  $textDecoration
+) {
+  font-family: $fontFamilies;
+  font-weight: $fontWeights;
+  line-height: $lineHeights;
+  font-size: $fontSize;
+  letter-spacing: $letterSpacing;
+  // paragraph-spacing: "$paragraphSpacing.0";
+  // text-case: "$textCase.none";
+  text-decoration: $textDecoration;
+}
+@mixin headlineMedium(
+  $fontFamilies,
+  $fontWeights,
+  $lineHeights,
+  $fontSize,
+  $letterSpacing,
+  $textDecoration
+) {
+  font-family: $fontFamilies;
+  font-weight: $fontWeights;
+  line-height: $lineHeights;
+  font-size: $fontSize;
+  letter-spacing: $letterSpacing;
+  // paragraph-spacing: "$paragraphSpacing.0";
+  // text-case: "$textCase.none";
+  text-decoration: $textDecoration;
+}
+
+@mixin headlineSmall(
+  $fontFamilies,
+  $fontWeights,
+  $lineHeights,
+  $fontSize,
+  $letterSpacing,
+  $textDecoration
+) {
+  font-family: $fontFamilies;
+  font-weight: $fontWeights;
+  line-height: $lineHeights;
+  font-size: $fontSize;
+  letter-spacing: $letterSpacing;
+  // paragraph-spacing: "$paragraphSpacing.0";
+  // text-case: "$textCase.none";
+  text-decoration: $textDecoration;
+}
+@mixin titleLarge(
+  $fontFamilies,
+  $fontWeights,
+  $lineHeights,
+  $fontSize,
+  $letterSpacing,
+  $textDecoration
+) {
+  font-family: $fontFamilies;
+  font-weight: $fontWeights;
+  line-height: $lineHeights;
+  font-size: $fontSize;
+  letter-spacing: $letterSpacing;
+  // paragraph-spacing: "$paragraphSpacing.0";
+  // text-case: "$textCase.none";
+  text-decoration: $textDecoration;
+}
+
+@mixin titleMedium(
+  $fontFamilies,
+  $fontWeights,
+  $lineHeights,
+  $fontSize,
+  $letterSpacing,
+  $textDecoration
+) {
+  font-family: $fontFamilies;
+  font-weight: $fontWeights;
+  line-height: $lineHeights;
+  font-size: $fontSize;
+  letter-spacing: $letterSpacing;
+  // paragraph-spacing: "$paragraphSpacing.0";
+  // text-case: "$textCase.none";
+  text-decoration: $textDecoration;
+}
+@mixin titleSmall(
+  $fontFamilies,
+  $fontWeights,
+  $lineHeights,
+  $fontSize,
+  $letterSpacing,
+  $textDecoration
+) {
+  font-family: $fontFamilies;
+  font-weight: $fontWeights;
+  line-height: $lineHeights;
+  font-size: $fontSize;
+  letter-spacing: $letterSpacing;
+  // paragraph-spacing: "$paragraphSpacing.0";
+  // text-case: "$textCase.none";
+  text-decoration: $textDecoration;
+}
+@mixin labelLarge(
+  $fontFamilies,
+  $fontWeights,
+  $lineHeights,
+  $fontSize,
+  $letterSpacing,
+  $textDecoration
+) {
+  font-family: $fontFamilies;
+  font-weight: $fontWeights;
+  line-height: $lineHeights;
+  font-size: $fontSize;
+  letter-spacing: $letterSpacing;
+  // paragraph-spacing: "$paragraphSpacing.0";
+  // text-case: "$textCase.none";
+  text-decoration: $textDecoration;
+}
+
+@mixin labelMedium(
+  $fontFamilies,
+  $fontWeights,
+  $lineHeights,
+  $fontSize,
+  $letterSpacing,
+  $textDecoration
+) {
+  font-family: $fontFamilies;
+  font-weight: $fontWeights;
+  line-height: $lineHeights;
+  font-size: $fontSize;
+  letter-spacing: $letterSpacing;
+  // paragraph-spacing: "$paragraphSpacing.0";
+  // text-case: "$textCase.none";
+  text-decoration: $textDecoration;
+}
+@mixin labelSmall(
+  $fontFamilies,
+  $fontWeights,
+  $lineHeights,
+  $fontSize,
+  $letterSpacing,
+  $textDecoration
+) {
+  font-family: $fontFamilies;
+  font-weight: $fontWeights;
+  line-height: $lineHeights;
+  font-size: $fontSize;
+  letter-spacing: $letterSpacing;
+  // paragraph-spacing: "$paragraphSpacing.0";
+  // text-case: "$textCase.none";
+  text-decoration: $textDecoration;
+}
+@mixin bodyLarge(
+  $fontFamilies,
+  $fontWeights,
+  $lineHeights,
+  $fontSize,
+  $letterSpacing,
+  $textDecoration
+) {
+  font-family: $fontFamilies;
+  font-weight: $fontWeights;
+  line-height: $lineHeights;
+  font-size: $fontSize;
+  letter-spacing: $letterSpacing;
+  // paragraph-spacing: "$paragraphSpacing.0";
+  // text-case: "$textCase.none";
+  text-decoration: $textDecoration;
+}
+
+@mixin bodyMedium(
+  $fontFamilies,
+  $fontWeights,
+  $lineHeights,
+  $fontSize,
+  $letterSpacing,
+  $textDecoration
+) {
+  font-family: $fontFamilies;
+  font-weight: $fontWeights;
+  line-height: $lineHeights;
+  font-size: $fontSize;
+  letter-spacing: $letterSpacing;
+  // paragraph-spacing: "$paragraphSpacing.0";
+  // text-case: "$textCase.none";
+  text-decoration: $textDecoration;
+}
+
+@mixin bodySmall(
+  $fontFamilies,
+  $fontWeights,
+  $lineHeights,
+  $fontSize,
+  $letterSpacing,
+  $textDecoration
+) {
+  font-family: $fontFamilies;
+  font-weight: $fontWeights;
+  line-height: $lineHeights;
+  font-size: $fontSize;
+  letter-spacing: $letterSpacing;
+  // paragraph-spacing: "$paragraphSpacing.0";
+  // text-case: "$textCase.none";
+  text-decoration: $textDecoration;
+}
+
+@mixin bodyChips(
+  $fontFamilies,
+  $fontWeights,
+  $lineHeights,
+  $fontSize,
+  $letterSpacing,
+  $textDecoration
+) {
+  font-family: $fontFamilies;
+  font-weight: $fontWeights;
+  line-height: $lineHeights;
+  font-size: $fontSize;
+  letter-spacing: $letterSpacing;
+  // paragraph-spacing: "$paragraphSpacing.0";
+  // text-case: "$textCase.none";
+  text-decoration: $textDecoration;
+}
+.ejemplo-uso {
+  @include displayLarge(
+    var(--global-font-families-poppins),
+    var(--global-font-weights-poppins-0),
+    var(--global-line-heights-0),
+    var(--global-font-size-11),
+    var(--global-letter-spacing-0),
+    var(--global-text-decoration-none)
+  );
+
+  @include displayMedium(
+    var(--global-font-families-poppins),
+    var(--global-font-weights-poppins-0),
+    var(--global-line-heights-1),
+    var(--global-font-size-10),
+    var(--global-letter-spacing-1),
+    var(--global-text-decoration-none)
+  );
+
+  @include displaySmall(
+    var(--global-font-families-poppins),
+    var(--global-font-weights-poppins-0),
+    var(--global-line-heights-2),
+    var(--global-font-size-9),
+    var(--global-letter-spacing-1),
+    var(--global-text-decoration-none)
+  );
+
+  @include headlineLarge(
+    var(--global-font-families-poppins),
+    var(--global-font-weights-poppins-0),
+    var(--global-line-heights-3),
+    var(--global-font-size-8),
+    var(--global-letter-spacing-1),
+    var(--global-text-decoration-none)
+  );
+
+  @include headlineMedium(
+    var(--global-font-families-poppins),
+    var(--global-font-weights-poppins-0),
+    var(--global-line-heights-4),
+    var(--global-font-size-7),
+    var(--global-letter-spacing-1),
+    var(--global-text-decoration-none)
+  );
+
+  @include headlineSmall(
+    var(--global-font-families-poppins),
+    var(--global-font-weights-poppins-0),
+    var(--global-line-heights-5),
+    var(--global-font-size-6),
+    var(--global-letter-spacing-1),
+    var(--global-text-decoration-none)
+  );
+
+  @include titleLarge(
+    var(--global-font-families-poppins),
+    var(--global-font-weights-poppins-0),
+    var(--global-line-heights-6),
+    var(--global-font-size-5),
+    var(--global-letter-spacing-1),
+    var(--global-text-decoration-none)
+  );
+
+  @include titleMedium(
+    var(--global-font-families-poppins),
+    var(--global-font-weights-poppins-1),
+    var(--global-line-heights-7),
+    var(--global-font-size-4),
+    var(--global-letter-spacing-2),
+    var(--global-text-decoration-none)
+  );
+  @include titleSmall(
+    var(--global-font-families-poppins),
+    var(--global-font-weights-poppins-1),
+    var(--global-line-heights-8),
+    var(--global-font-size-3),
+    var(--global-letter-spacing-2),
+    var(--global-text-decoration-none)
+  );
+
+  @include labelLarge(
+    var(--global-font-families-poppins),
+    var(--global-font-weights-poppins-1),
+    var(--global-line-heights-8),
+    var(--global-font-size-3),
+    var(--global-letter-spacing-2),
+    var(--global-text-decoration-none)
+  );
+
+  @include labelMedium(
+    var(--global-font-families-poppins),
+    var(--global-font-weights-poppins-1),
+    var(--global-line-heights-9),
+    var(--global-font-size-2),
+    var(--global-letter-spacing-3),
+    var(--global-text-decoration-none)
+  );
+
+  @include labelSmall(
+    var(--global-font-families-poppins),
+    var(--global-font-weights-poppins-1),
+    var(--global-line-heights-9),
+    var(--global-font-size-1),
+    var(--global-letter-spacing-3),
+    var(--global-text-decoration-none)
+  );
+
+  @include bodyLarge(
+    var(--global-font-families-poppins),
+    var(--global-font-weights-poppins-0),
+    var(--global-line-heights-7),
+    var(--global-font-size-4),
+    var(--global-letter-spacing-3),
+    var(--global-text-decoration-none)
+  );
+
+  @include bodyMedium(
+    var(--global-font-families-poppins),
+    var(--global-font-weights-poppins-0),
+    var(--global-line-heights-8),
+    var(--global-font-size-3),
+    var(--global-letter-spacing-4),
+    var(--global-text-decoration-none)
+  );
+
+  @include bodySmall(
+    var(--global-font-families-poppins),
+    var(--global-font-weights-poppins-0),
+    var(--global-line-heights-9),
+    var(--global-font-size-2),
+    var(--global-letter-spacing-5),
+    var(--global-text-decoration-none)
+  );
+
+  @include bodyChips(
+    var(--global-font-families-poppins),
+    var(--global-font-weights-poppins-0),
+    var(--global-line-heights-10),
+    var(--global-font-size-0),
+    var(--global-letter-spacing-6),
+    var(--global-text-decoration-none)
+  );
+}

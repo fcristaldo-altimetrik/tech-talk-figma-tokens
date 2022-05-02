@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./brandName.css";
+import "./brandName.scss";
 
 const BrandName = ({ name, img }) => {
   return (

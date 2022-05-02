@@ -1,6 +1,7 @@
 import React from "react";
 import BrandName from "./BrandName";
-import "./brandList.css";
+
+import "./brandList.scss";
 
 const BrandList = () => {
   const brandArray = [
@@ -78,7 +79,7 @@ const BrandList = () => {
     },
   ];
   return (
-    <div class="flex flex-nowrap brand-list gap-4">
+    <div className="flex flex-nowrap brand-list gap-4">
       {brandArray.map((e, i) => {
         return <BrandName key={i} name={e.namebrand} img={e.imgBrand} />;
       })}
