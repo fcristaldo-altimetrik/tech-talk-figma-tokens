@@ -22,24 +22,10 @@
 }
 
 .title {
-  @include displayLarge(
-    var(--global-font-families-poppins),
-    var(--global-font-weights-poppins-0),
-    calc(var(--global-line-heights-0) * 1px),
-    calc(var(--global-font-size-11) * 1px),
-    calc(var(--global-letter-spacing-0) * 1px),
-    var(--global-text-decoration-none)
-  );
+  @include displayLarge;
 }
 .paragraph {
-  @include titleSmall(
-    var(--global-font-families-poppins),
-    var(--global-font-weights-poppins-1),
-    calc(var(--global-line-heights-8) * 1px),
-    calc(var(--global-font-size-3) * 1px),
-    calc(var(--global-letter-spacing-2) * 1px),
-    var(--global-text-decoration-none)
-  );
+  @include titleSmall;
   text-align: center;
   margin-top: 24px;
   a {

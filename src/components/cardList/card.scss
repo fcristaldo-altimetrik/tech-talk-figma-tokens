@@ -1,22 +1,21 @@
+@import "../../mixins.scss";
+
 .card {
-  background: #ffffff;
-  box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.15),
-    0px 1px 3px rgba(0, 0, 0, 0.3);
-  border-radius: 16px;
+  background: var(--light-backgound-primary);
+  @include dp_03_shadow;
+  border-radius: calc(var(--global-border-radius-2) * 1px);
   .padding-card-info {
     padding: 16px 0 32px 16px;
     .bagde {
-      border: 1px solid #6b6b6b;
+      color: var(--light-content-tertiary);
+      border: 1px solid var(--light-content-tertiary);
       border-radius: 4px;
       padding: 2px 8px;
-      font-size: 10px;
-      line-height: 14px;
+      @include bodyChips;
       margin: 5px;
     }
     h4 {
-      font-weight: 400;
-      font-size: 22px;
-      line-height: 28px;
+      @include titleLarge;
       padding: 10px;
     }
   }
@@ -25,7 +24,8 @@
     .card-brand {
       width: 64px;
       height: 64px;
-      background-color: #000;
+      background-color: var(--light-backgound-inverse-primary);
+      @include dp_03_shadow;
       border-radius: 0px 16px;
       display: inline-block;
       overflow: hidden;

@@ -1,423 +1,211 @@
-@mixin displayLarge(
-  $fontFamilies,
-  $fontWeights,
-  $lineHeights,
-  $fontSize,
-  $letterSpacing,
-  $textDecoration
-) {
-  font-family: $fontFamilies;
-  font-weight: $fontWeights;
-  line-height: $lineHeights;
-  font-size: $fontSize;
-  letter-spacing: $letterSpacing;
+@mixin displayLarge {
+  font-family: var(--global-font-families-poppins);
+  font-weight: var(--global-font-weights-poppins-0);
+  line-height: calc(var(--global-line-heights-0) * 1px);
+  font-size: calc(var(--global-font-size-11) * 1px);
+  letter-spacing: calc(var(--global-letter-spacing-0) * 1px);
   // paragraph-spacing: "$paragraphSpacing.0";
   // text-case: "$textCase.none";
-  text-decoration: $textDecoration;
+  text-decoration: var(--global-text-decoration-none);
 }
-@mixin displayMedium(
-  $fontFamilies,
-  $fontWeights,
-  $lineHeights,
-  $fontSize,
-  $letterSpacing,
-  $textDecoration
-) {
-  font-family: $fontFamilies;
-  font-weight: $fontWeights;
-  line-height: $lineHeights;
-  font-size: $fontSize;
-  letter-spacing: $letterSpacing;
+@mixin displayMedium {
+  font-family: var(--global-font-families-poppins);
+  font-weight: var(--global-font-weights-poppins-0);
+  line-height: calc(var(--global-line-heights-1) * 1px);
+  font-size: calc(var(--global-font-size-10) * 1px);
+  letter-spacing: calc(var(--global-letter-spacing-1) * 1px);
   // paragraph-spacing: "$paragraphSpacing.0";
   // text-case: "$textCase.none";
-  text-decoration: $textDecoration;
+  text-decoration: var(--global-text-decoration-none);
 }
-@mixin displaySmall(
-  $fontFamilies,
-  $fontWeights,
-  $lineHeights,
-  $fontSize,
-  $letterSpacing,
-  $textDecoration
-) {
-  font-family: $fontFamilies;
-  font-weight: $fontWeights;
-  line-height: $lineHeights;
-  font-size: $fontSize;
-  letter-spacing: $letterSpacing;
+@mixin displaySmall {
+  font-family: var(--global-font-families-poppins);
+  font-weight: var(--global-font-weights-poppins-0);
+  line-height: calc(var(--global-line-heights-2) * 1px);
+  font-size: calc(var(--global-font-size-9) * 1px);
+  letter-spacing: calc(var(--global-letter-spacing-1) * 1px);
   // paragraph-spacing: "$paragraphSpacing.0";
   // text-case: "$textCase.none";
-  text-decoration: $textDecoration;
+  text-decoration: var(--global-text-decoration-none);
 }
-
-@mixin headlineLarge(
-  $fontFamilies,
-  $fontWeights,
-  $lineHeights,
-  $fontSize,
-  $letterSpacing,
-  $textDecoration
-) {
-  font-family: $fontFamilies;
-  font-weight: $fontWeights;
-  line-height: $lineHeights;
-  font-size: $fontSize;
-  letter-spacing: $letterSpacing;
+@mixin headlineLarge {
+  font-family: var(--global-font-families-poppins);
+  font-weight: var(--global-font-weights-poppins-0);
+  line-height: calc(var(--global-line-heights-3) * 1px);
+  font-size: calc(var(--global-font-size-8) * 1px);
+  letter-spacing: calc(var(--global-letter-spacing-1) * 1px);
   // paragraph-spacing: "$paragraphSpacing.0";
   // text-case: "$textCase.none";
-  text-decoration: $textDecoration;
+  text-decoration: var(--global-text-decoration-none);
 }
-@mixin headlineMedium(
-  $fontFamilies,
-  $fontWeights,
-  $lineHeights,
-  $fontSize,
-  $letterSpacing,
-  $textDecoration
-) {
-  font-family: $fontFamilies;
-  font-weight: $fontWeights;
-  line-height: $lineHeights;
-  font-size: $fontSize;
-  letter-spacing: $letterSpacing;
+@mixin headlineMedium {
+  font-family: var(--global-font-families-poppins);
+  font-weight: var(--global-font-weights-poppins-0);
+  line-height: calc(var(--global-line-heights-4) * 1px);
+  font-size: calc(var(--global-font-size-7) * 1px);
+  letter-spacing: calc(var(--global-letter-spacing-1) * 1px);
   // paragraph-spacing: "$paragraphSpacing.0";
   // text-case: "$textCase.none";
-  text-decoration: $textDecoration;
+  text-decoration: var(--global-text-decoration-none);
 }
 
-@mixin headlineSmall(
-  $fontFamilies,
-  $fontWeights,
-  $lineHeights,
-  $fontSize,
-  $letterSpacing,
-  $textDecoration
-) {
-  font-family: $fontFamilies;
-  font-weight: $fontWeights;
-  line-height: $lineHeights;
-  font-size: $fontSize;
-  letter-spacing: $letterSpacing;
+@mixin headlineSmall {
+  font-family: var(--global-font-families-poppins);
+  font-weight: var(--global-font-weights-poppins-0);
+  line-height: calc(var(--global-line-heights-5) * 1px);
+  font-size: calc(var(--global-font-size-6) * 1px);
+  letter-spacing: calc(var(--global-letter-spacing-1) * 1px);
   // paragraph-spacing: "$paragraphSpacing.0";
   // text-case: "$textCase.none";
-  text-decoration: $textDecoration;
+  text-decoration: var(--global-text-decoration-none);
 }
-@mixin titleLarge(
-  $fontFamilies,
-  $fontWeights,
-  $lineHeights,
-  $fontSize,
-  $letterSpacing,
-  $textDecoration
-) {
-  font-family: $fontFamilies;
-  font-weight: $fontWeights;
-  line-height: $lineHeights;
-  font-size: $fontSize;
-  letter-spacing: $letterSpacing;
+@mixin titleLarge {
+  font-family: var(--global-font-families-poppins);
+  font-weight: var(--global-font-weights-poppins-0);
+  line-height: calc(var(--global-line-heights-6) * 1px);
+  font-size: calc(var(--global-font-size-5) * 1px);
+  letter-spacing: calc(var(--global-letter-spacing-1) * 1px);
   // paragraph-spacing: "$paragraphSpacing.0";
   // text-case: "$textCase.none";
-  text-decoration: $textDecoration;
+  text-decoration: var(--global-text-decoration-none);
 }
 
-@mixin titleMedium(
-  $fontFamilies,
-  $fontWeights,
-  $lineHeights,
-  $fontSize,
-  $letterSpacing,
-  $textDecoration
-) {
-  font-family: $fontFamilies;
-  font-weight: $fontWeights;
-  line-height: $lineHeights;
-  font-size: $fontSize;
-  letter-spacing: $letterSpacing;
+@mixin titleMedium {
+  font-family: var(--global-font-families-poppins);
+  font-weight: var(--global-font-weights-poppins-1);
+  line-height: calc(var(--global-line-heights-7) * 1px);
+  font-size: calc(var(--global-font-size-4) * 1px);
+  letter-spacing: calc(var(--global-letter-spacing-2) * 1px);
   // paragraph-spacing: "$paragraphSpacing.0";
   // text-case: "$textCase.none";
-  text-decoration: $textDecoration;
+  text-decoration: var(--global-text-decoration-none);
 }
-@mixin titleSmall(
-  $fontFamilies,
-  $fontWeights,
-  $lineHeights,
-  $fontSize,
-  $letterSpacing,
-  $textDecoration
-) {
-  font-family: $fontFamilies;
-  font-weight: $fontWeights;
-  line-height: $lineHeights;
-  font-size: $fontSize;
-  letter-spacing: $letterSpacing;
+@mixin titleSmall {
+  font-family: var(--global-font-families-poppins);
+  font-weight: var(--global-font-weights-poppins-1);
+  line-height: calc(var(--global-line-heights-8) * 1px);
+  font-size: calc(var(--global-font-size-3) * 1px);
+  letter-spacing: calc(var(--global-letter-spacing-2) * 1px);
   // paragraph-spacing: "$paragraphSpacing.0";
   // text-case: "$textCase.none";
-  text-decoration: $textDecoration;
+  text-decoration: var(--global-text-decoration-none);
 }
-@mixin labelLarge(
-  $fontFamilies,
-  $fontWeights,
-  $lineHeights,
-  $fontSize,
-  $letterSpacing,
-  $textDecoration
-) {
-  font-family: $fontFamilies;
-  font-weight: $fontWeights;
-  line-height: $lineHeights;
-  font-size: $fontSize;
-  letter-spacing: $letterSpacing;
+@mixin labelLarge {
+  font-family: var(--global-font-families-poppins);
+  font-weight: var(--global-font-weights-poppins-1);
+  line-height: calc(var(--global-line-heights-8) * 1px);
+  font-size: calc(var(--global-font-size-3) * 1px);
+  letter-spacing: calc(var(--global-letter-spacing-2) * 1px);
   // paragraph-spacing: "$paragraphSpacing.0";
   // text-case: "$textCase.none";
-  text-decoration: $textDecoration;
+  text-decoration: var(--global-text-decoration-none);
 }
 
-@mixin labelMedium(
-  $fontFamilies,
-  $fontWeights,
-  $lineHeights,
-  $fontSize,
-  $letterSpacing,
-  $textDecoration
-) {
-  font-family: $fontFamilies;
-  font-weight: $fontWeights;
-  line-height: $lineHeights;
-  font-size: $fontSize;
-  letter-spacing: $letterSpacing;
+@mixin labelMedium {
+  font-family: var(--global-font-families-poppins);
+  font-weight: var(--global-font-weights-poppins-1);
+  line-height: calc(var(--global-line-heights-9) * 1px);
+  font-size: calc(var(--global-font-size-2) * 1px);
+  letter-spacing: calc(var(--global-letter-spacing-3) * 1px);
   // paragraph-spacing: "$paragraphSpacing.0";
   // text-case: "$textCase.none";
-  text-decoration: $textDecoration;
+  text-decoration: var(--global-text-decoration-none);
 }
-@mixin labelSmall(
-  $fontFamilies,
-  $fontWeights,
-  $lineHeights,
-  $fontSize,
-  $letterSpacing,
-  $textDecoration
-) {
-  font-family: $fontFamilies;
-  font-weight: $fontWeights;
-  line-height: $lineHeights;
-  font-size: $fontSize;
-  letter-spacing: $letterSpacing;
+@mixin labelSmall {
+  font-family: var(--global-font-families-poppins);
+  font-weight: var(--global-font-weights-poppins-1);
+  line-height: calc(var(--global-line-heights-9) * 1px);
+  font-size: calc(var(--global-font-size-1) * 1px);
+  letter-spacing: calc(var(--global-letter-spacing-3) * 1px);
   // paragraph-spacing: "$paragraphSpacing.0";
   // text-case: "$textCase.none";
-  text-decoration: $textDecoration;
+  text-decoration: var(--global-text-decoration-none);
 }
-@mixin bodyLarge(
-  $fontFamilies,
-  $fontWeights,
-  $lineHeights,
-  $fontSize,
-  $letterSpacing,
-  $textDecoration
-) {
-  font-family: $fontFamilies;
-  font-weight: $fontWeights;
-  line-height: $lineHeights;
-  font-size: $fontSize;
-  letter-spacing: $letterSpacing;
+@mixin bodyLarge {
+  font-family: var(--global-font-families-poppins);
+  font-weight: var(--global-font-weights-poppins-0);
+  line-height: calc(var(--global-line-heights-7) * 1px);
+  font-size: calc(var(--global-font-size-4) * 1px);
+  letter-spacing: calc(var(--global-letter-spacing-3) * 1px);
   // paragraph-spacing: "$paragraphSpacing.0";
   // text-case: "$textCase.none";
-  text-decoration: $textDecoration;
+  text-decoration: var(--global-text-decoration-none);
 }
 
-@mixin bodyMedium(
-  $fontFamilies,
-  $fontWeights,
-  $lineHeights,
-  $fontSize,
-  $letterSpacing,
-  $textDecoration
-) {
-  font-family: $fontFamilies;
-  font-weight: $fontWeights;
-  line-height: $lineHeights;
-  font-size: $fontSize;
-  letter-spacing: $letterSpacing;
+@mixin bodyMedium {
+  font-family: var(--global-font-families-poppins);
+  font-weight: var(--global-font-weights-poppins-0);
+  line-height: calc(var(--global-line-heights-8) * 1px);
+  font-size: calc(var(--global-font-size-3) * 1px);
+  letter-spacing: calc(var(--global-letter-spacing-4) * 1px);
   // paragraph-spacing: "$paragraphSpacing.0";
   // text-case: "$textCase.none";
-  text-decoration: $textDecoration;
+  text-decoration: var(--global-text-decoration-none);
 }
 
-@mixin bodySmall(
-  $fontFamilies,
-  $fontWeights,
-  $lineHeights,
-  $fontSize,
-  $letterSpacing,
-  $textDecoration
-) {
-  font-family: $fontFamilies;
-  font-weight: $fontWeights;
-  line-height: $lineHeights;
-  font-size: $fontSize;
-  letter-spacing: $letterSpacing;
+@mixin bodySmall {
+  font-family: var(--global-font-families-poppins);
+  font-weight: var(--global-font-weights-poppins-0);
+  line-height: calc(var(--global-line-heights-9) * 1px);
+  font-size: calc(var(--global-font-size-2) * 1px);
+  letter-spacing: calc(var(--global-letter-spacing-5) * 1px);
   // paragraph-spacing: "$paragraphSpacing.0";
   // text-case: "$textCase.none";
-  text-decoration: $textDecoration;
+  text-decoration: var(--global-text-decoration-none);
 }
 
-@mixin bodyChips(
-  $fontFamilies,
-  $fontWeights,
-  $lineHeights,
-  $fontSize,
-  $letterSpacing,
-  $textDecoration
-) {
-  font-family: $fontFamilies;
-  font-weight: $fontWeights;
-  line-height: $lineHeights;
-  font-size: $fontSize;
-  letter-spacing: $letterSpacing;
+@mixin bodyChips {
+  font-family: var(--global-font-families-poppins);
+  font-weight: var(--global-font-weights-poppins-0);
+  line-height: calc(var(--global-line-heights-10) * 1px);
+  font-size: calc(var(--global-font-size-0) * 1px);
+  letter-spacing: calc(var(--global-letter-spacing-6) * 1px);
   // paragraph-spacing: "$paragraphSpacing.0";
   // text-case: "$textCase.none";
-  text-decoration: $textDecoration;
+  text-decoration: var(--global-text-decoration-none);
 }
-.ejemplo-uso {
-  @include displayLarge(
-    var(--global-font-families-poppins),
-    var(--global-font-weights-poppins-0),
-    var(--global-line-heights-0),
-    var(--global-font-size-11),
-    var(--global-letter-spacing-0),
-    var(--global-text-decoration-none)
-  );
 
-  @include displayMedium(
-    var(--global-font-families-poppins),
-    var(--global-font-weights-poppins-0),
-    var(--global-line-heights-1),
-    var(--global-font-size-10),
-    var(--global-letter-spacing-1),
-    var(--global-text-decoration-none)
-  );
+@mixin dp_01_shadow {
+  box-shadow: calc(var(--global-01-dp-1-x) * 1px)
+      calc(var(--global-01-dp-1-y) * 1px) calc(var(--global-01-dp-1-blur) * 1px)
+      calc(var(--global-01-dp-1-spread) * 1px) var(--global-01-dp-1-color),
+    calc(var(--global-01-dp-0-x) * 1px) calc(var(--global-01-dp-0-y) * 1px)
+      calc(var(--global-01-dp-0-blur) * 1px)
+      calc(var(--global-01-dp-0-spread) * 1px) var(--global-01-dp-0-color);
+}
 
-  @include displaySmall(
-    var(--global-font-families-poppins),
-    var(--global-font-weights-poppins-0),
-    var(--global-line-heights-2),
-    var(--global-font-size-9),
-    var(--global-letter-spacing-1),
-    var(--global-text-decoration-none)
-  );
+@mixin dp_02_shadow {
+  box-shadow: calc(var(--global-02-dp-1-x) * 1px)
+      calc(var(--global-02-dp-1-y) * 1px) calc(var(--global-02-dp-1-blur) * 1px)
+      calc(var(--global-02-dp-1-spread) * 1px) var(--global-02-dp-1-color),
+    calc(var(--global-02-dp-0-x) * 1px) calc(var(--global-02-dp-0-y) * 1px)
+      calc(var(--global-02-dp-0-blur) * 1px)
+      calc(var(--global-02-dp-0-spread) * 1px) var(--global-02-dp-0-color);
+}
 
-  @include headlineLarge(
-    var(--global-font-families-poppins),
-    var(--global-font-weights-poppins-0),
-    var(--global-line-heights-3),
-    var(--global-font-size-8),
-    var(--global-letter-spacing-1),
-    var(--global-text-decoration-none)
-  );
+@mixin dp_03_shadow {
+  box-shadow: calc(var(--global-03-dp-1-x) * 1px)
+      calc(var(--global-03-dp-1-y) * 1px) calc(var(--global-03-dp-1-blur) * 1px)
+      calc(var(--global-03-dp-1-spread) * 1px) var(--global-03-dp-1-color),
+    calc(var(--global-03-dp-0-x) * 1px) calc(var(--global-03-dp-0-y) * 1px)
+      calc(var(--global-03-dp-0-blur) * 1px)
+      calc(var(--global-03-dp-0-spread) * 1px) var(--global-03-dp-0-color);
+}
 
-  @include headlineMedium(
-    var(--global-font-families-poppins),
-    var(--global-font-weights-poppins-0),
-    var(--global-line-heights-4),
-    var(--global-font-size-7),
-    var(--global-letter-spacing-1),
-    var(--global-text-decoration-none)
-  );
+@mixin dp_04_shadow {
+  box-shadow: calc(var(--global-04-dp-1-x) * 1px)
+      calc(var(--global-04-dp-1-y) * 1px) calc(var(--global-04-dp-1-blur) * 1px)
+      calc(var(--global-04-dp-1-spread) * 1px) var(--global-04-dp-1-color),
+    calc(var(--global-04-dp-0-x) * 1px) calc(var(--global-04-dp-0-y) * 1px)
+      calc(var(--global-04-dp-0-blur) * 1px)
+      calc(var(--global-04-dp-0-spread) * 1px) var(--global-04-dp-0-color);
+}
 
-  @include headlineSmall(
-    var(--global-font-families-poppins),
-    var(--global-font-weights-poppins-0),
-    var(--global-line-heights-5),
-    var(--global-font-size-6),
-    var(--global-letter-spacing-1),
-    var(--global-text-decoration-none)
-  );
-
-  @include titleLarge(
-    var(--global-font-families-poppins),
-    var(--global-font-weights-poppins-0),
-    var(--global-line-heights-6),
-    var(--global-font-size-5),
-    var(--global-letter-spacing-1),
-    var(--global-text-decoration-none)
-  );
-
-  @include titleMedium(
-    var(--global-font-families-poppins),
-    var(--global-font-weights-poppins-1),
-    var(--global-line-heights-7),
-    var(--global-font-size-4),
-    var(--global-letter-spacing-2),
-    var(--global-text-decoration-none)
-  );
-  @include titleSmall(
-    var(--global-font-families-poppins),
-    var(--global-font-weights-poppins-1),
-    var(--global-line-heights-8),
-    var(--global-font-size-3),
-    var(--global-letter-spacing-2),
-    var(--global-text-decoration-none)
-  );
-
-  @include labelLarge(
-    var(--global-font-families-poppins),
-    var(--global-font-weights-poppins-1),
-    var(--global-line-heights-8),
-    var(--global-font-size-3),
-    var(--global-letter-spacing-2),
-    var(--global-text-decoration-none)
-  );
-
-  @include labelMedium(
-    var(--global-font-families-poppins),
-    var(--global-font-weights-poppins-1),
-    var(--global-line-heights-9),
-    var(--global-font-size-2),
-    var(--global-letter-spacing-3),
-    var(--global-text-decoration-none)
-  );
-
-  @include labelSmall(
-    var(--global-font-families-poppins),
-    var(--global-font-weights-poppins-1),
-    var(--global-line-heights-9),
-    var(--global-font-size-1),
-    var(--global-letter-spacing-3),
-    var(--global-text-decoration-none)
-  );
-
-  @include bodyLarge(
-    var(--global-font-families-poppins),
-    var(--global-font-weights-poppins-0),
-    var(--global-line-heights-7),
-    var(--global-font-size-4),
-    var(--global-letter-spacing-3),
-    var(--global-text-decoration-none)
-  );
-
-  @include bodyMedium(
-    var(--global-font-families-poppins),
-    var(--global-font-weights-poppins-0),
-    var(--global-line-heights-8),
-    var(--global-font-size-3),
-    var(--global-letter-spacing-4),
-    var(--global-text-decoration-none)
-  );
-
-  @include bodySmall(
-    var(--global-font-families-poppins),
-    var(--global-font-weights-poppins-0),
-    var(--global-line-heights-9),
-    var(--global-font-size-2),
-    var(--global-letter-spacing-5),
-    var(--global-text-decoration-none)
-  );
-
-  @include bodyChips(
-    var(--global-font-families-poppins),
-    var(--global-font-weights-poppins-0),
-    var(--global-line-heights-10),
-    var(--global-font-size-0),
-    var(--global-letter-spacing-6),
-    var(--global-text-decoration-none)
-  );
+@mixin dp_05_shadow {
+  box-shadow: calc(var(--global-05-dp-1-x) * 1px)
+      calc(var(--global-05-dp-1-y) * 1px) calc(var(--global-05-dp-1-blur) * 1px)
+      calc(var(--global-05-dp-1-spread) * 1px) var(--global-05-dp-1-color),
+    calc(var(--global-05-dp-0-x) * 1px) calc(var(--global-05-dp-0-y) * 1px)
+      calc(var(--global-05-dp-0-blur) * 1px)
+      calc(var(--global-05-dp-0-spread) * 1px) var(--global-05-dp-0-color);
 }
