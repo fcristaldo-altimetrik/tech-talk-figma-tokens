@@ -13,6 +13,7 @@
       padding: 2px 8px;
       @include bodyChips;
       margin: 5px;
+      white-space: nowrap;
     }
     h4 {
       @include titleLarge;
