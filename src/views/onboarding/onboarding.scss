@@ -29,6 +29,8 @@
 
 @media only screen and (max-width: 992px) {
   .modal-onboarding {
+    width: 100%;
+    position: fixed;
     padding: 0px;
     h3,
     p {

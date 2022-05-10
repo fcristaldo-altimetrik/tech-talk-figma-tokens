@@ -1,9 +1,5 @@
 .border-gradient {
-  background: -webkit-linear-gradient(
-    177deg,
-    rgba(123, 97, 255, 1) 0%,
-    rgba(229, 113, 108, 1) 100%
-  );
+  background: var(--light-gradients-story);
   border-radius: 50%;
   padding: 2px;
   width: 62px;

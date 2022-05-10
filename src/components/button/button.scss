@@ -8,12 +8,12 @@
   }
 }
 .btn-primary {
-  color: var(--light-principal-primary-b);
-  background: var(--light-principal-primary-a);
+  color: var(--light-content-inverse-primary);
+  background: var(--light-backgound-inverse-primary);
 }
 
 .btn-outline {
-  color: var(--light-principal-primary-a);
+  color: var(--light-content-primary);
   border-width: 1px;
-  border-color: var(--light-principal-primary-a);
+  border-color: var(--light-border-state-filled);
 }
