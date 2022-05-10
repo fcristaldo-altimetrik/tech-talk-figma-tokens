@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 03 May 2022 14:29:55 GMT
+ * Generated on Tue, 10 May 2022 16:02:19 GMT
  */
 
 :root {
@@ -263,8 +263,44 @@
   --light-states-accent-disabled: #ffffff66;
   --light-states-accent-pressed: #0000004d;
   --light-gradients-story: linear-gradient(180deg, #7b61ff 0%, #e5716c 100%);
+  --light-gradients-illustrations: linear-gradient(180deg, #7b61ff 0%, #e5716c 100%);
   --light-disabled-background-primary-disabled: #e3e3e3;
   --light-disabled-background-inverse-primary-disabled: #727272;
   --light-disabled-content-disabled: #828394;
   --light-disabled-content-inverse-disabled: #afafaf;
+  --dark-mode-principal-primary-a: #ffffff;
+  --dark-mode-principal-primary-b: #000000;
+  --dark-mode-principal-accent: #7b61ff;
+  --dark-mode-principal-negative: #e5716c;
+  --dark-mode-principal-positive: #71c8c1;
+  --dark-mode-principal-info: #7199c8;
+  --dark-mode-backgound-primary: #141414;
+  --dark-mode-backgound-secundary: #1f1f1f;
+  --dark-mode-backgound-tertiary: #333333;
+  --dark-mode-backgound-inverse-primary: #e2e2e2;
+  --dark-mode-backgound-inverse-secundary: #cbcbcb;
+  --dark-mode-content-primary: #ffffff;
+  --dark-mode-content-secundary: #cbcbcb;
+  --dark-mode-content-tertiary: #afafaf;
+  --dark-mode-content-inverse-primary: #000000;
+  --dark-mode-content-inverse-secundary: #333333;
+  --dark-mode-content-inverse-tertiary: #545454;
+  --dark-mode-border-state-default: #a1a2c6;
+  --dark-mode-border-state-focus: #7b61ff;
+  --dark-mode-border-state-filled: #212345;
+  --dark-mode-border-state-error: #e5716c;
+  --dark-mode-border-selected: #000000;
+  --dark-mode-border-opaque: #e2e2e2;
+  --dark-mode-border-transparent: #00000014;
+  --dark-mode-shadows-shadow-15: #00000026;
+  --dark-mode-shadows-shadow-30: #0000004d;
+  --dark-mode-states-accent-hover: #0000001a;
+  --dark-mode-states-accent-disabled: #ffffff66;
+  --dark-mode-states-accent-pressed: #0000004d;
+  --dark-mode-gradients-story: linear-gradient(180deg, #7b61ff 0%, #e5716c 100%);
+  --dark-mode-gradients-illustrations: #ffffff;
+  --dark-mode-disabled-background-primary-disabled: #e3e3e3;
+  --dark-mode-disabled-background-inverse-primary-disabled: #727272;
+  --dark-mode-disabled-content-disabled: #828394;
+  --dark-mode-disabled-content-inverse-disabled: #afafaf;
 }

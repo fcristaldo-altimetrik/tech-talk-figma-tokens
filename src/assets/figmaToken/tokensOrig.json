@@ -181,19 +181,19 @@
           "type": "type"
         },
         "x": {
-          "value": "0",
+          "value": 0,
           "type": "x"
         },
         "y": {
-          "value": "1",
+          "value": 1,
           "type": "y"
         },
         "blur": {
-          "value": "3",
+          "value": 3,
           "type": "blur"
         },
         "spread": {
-          "value": "1",
+          "value": 1,
           "type": "spread"
         }
       },
@@ -207,19 +207,19 @@
           "type": "type"
         },
         "x": {
-          "value": "0",
+          "value": 0,
           "type": "x"
         },
         "y": {
-          "value": "1",
+          "value": 1,
           "type": "y"
         },
         "blur": {
-          "value": "2",
+          "value": 2,
           "type": "blur"
         },
         "spread": {
-          "value": "0",
+          "value": 0,
           "type": "spread"
         }
       }
@@ -235,19 +235,19 @@
           "type": "type"
         },
         "x": {
-          "value": "0",
+          "value": 0,
           "type": "x"
         },
         "y": {
-          "value": "2",
+          "value": 2,
           "type": "y"
         },
         "blur": {
-          "value": "6",
+          "value": 6,
           "type": "blur"
         },
         "spread": {
-          "value": "2",
+          "value": 2,
           "type": "spread"
         }
       },
@@ -261,19 +261,19 @@
           "type": "type"
         },
         "x": {
-          "value": "0",
+          "value": 0,
           "type": "x"
         },
         "y": {
-          "value": "1",
+          "value": 1,
           "type": "y"
         },
         "blur": {
-          "value": "2",
+          "value": 2,
           "type": "blur"
         },
         "spread": {
-          "value": "0",
+          "value": 0,
           "type": "spread"
         }
       }
@@ -289,19 +289,19 @@
           "type": "type"
         },
         "x": {
-          "value": "0",
+          "value": 0,
           "type": "x"
         },
         "y": {
-          "value": "1",
+          "value": 1,
           "type": "y"
         },
         "blur": {
-          "value": "3",
+          "value": 3,
           "type": "blur"
         },
         "spread": {
-          "value": "0",
+          "value": 0,
           "type": "spread"
         }
       },
@@ -315,19 +315,19 @@
           "type": "type"
         },
         "x": {
-          "value": "0",
+          "value": 0,
           "type": "x"
         },
         "y": {
-          "value": "4",
+          "value": 4,
           "type": "y"
         },
         "blur": {
-          "value": "8",
+          "value": 8,
           "type": "blur"
         },
         "spread": {
-          "value": "3",
+          "value": 3,
           "type": "spread"
         }
       }
@@ -343,19 +343,19 @@
           "type": "type"
         },
         "x": {
-          "value": "0",
+          "value": 0,
           "type": "x"
         },
         "y": {
-          "value": "2",
+          "value": 2,
           "type": "y"
         },
         "blur": {
-          "value": "3",
+          "value": 3,
           "type": "blur"
         },
         "spread": {
-          "value": "0",
+          "value": 0,
           "type": "spread"
         }
       },
@@ -369,19 +369,19 @@
           "type": "type"
         },
         "x": {
-          "value": "0",
+          "value": 0,
           "type": "x"
         },
         "y": {
-          "value": "6",
+          "value": 6,
           "type": "y"
         },
         "blur": {
-          "value": "10",
+          "value": 10,
           "type": "blur"
         },
         "spread": {
-          "value": "4",
+          "value": 4,
           "type": "spread"
         }
       }
@@ -397,19 +397,19 @@
           "type": "type"
         },
         "x": {
-          "value": "0",
+          "value": 0,
           "type": "x"
         },
         "y": {
-          "value": "4",
+          "value": 4,
           "type": "y"
         },
         "blur": {
-          "value": "4",
+          "value": 4,
           "type": "blur"
         },
         "spread": {
-          "value": "0",
+          "value": 0,
           "type": "spread"
         }
       },
@@ -423,19 +423,19 @@
           "type": "type"
         },
         "x": {
-          "value": "0",
+          "value": 0,
           "type": "x"
         },
         "y": {
-          "value": "8",
+          "value": 8,
           "type": "y"
         },
         "blur": {
-          "value": "12",
+          "value": 12,
           "type": "blur"
         },
         "spread": {
-          "value": "6",
+          "value": 6,
           "type": "spread"
         }
       }
@@ -1141,174 +1141,6 @@
     "Gradients": {
       "Story": {
         "value": "linear-gradient(180deg, #7b61ff 0%, #e5716c 100%)",
-        "type": "color"
-      },
-      "Illustrations": {
-        "value": "linear-gradient(180deg, #7b61ff 0%, #e5716c 100%)",
-        "type": "color"
-      }
-    },
-    "Disabled": {
-      "Background": {
-        "Primary_Disabled": {
-          "value": "#e3e3e3",
-          "type": "color"
-        },
-        "Inverse_Primary_Disabled": {
-          "value": "#727272",
-          "type": "color"
-        }
-      },
-      "Content": {
-        "Disabled": {
-          "value": "#828394",
-          "type": "color"
-        },
-        "Inverse_Disabled": {
-          "value": "#afafaf",
-          "type": "color"
-        }
-      }
-    }
-  },
-  "DarkMode": {
-    "Principal": {
-      "PrimaryA": {
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "PrimaryB": {
-        "value": "#000000",
-        "type": "color"
-      },
-      "Accent": {
-        "value": "#7b61ff",
-        "type": "color"
-      },
-      "Negative": {
-        "value": "#e5716c",
-        "type": "color"
-      },
-      "Positive": {
-        "value": "#71c8c1",
-        "type": "color"
-      },
-      "Info": {
-        "value": "#7199c8",
-        "type": "color"
-      }
-    },
-    "Backgound": {
-      "Primary": {
-        "value": "#141414",
-        "type": "color"
-      },
-      "Secundary": {
-        "value": "#1f1f1f",
-        "type": "color"
-      },
-      "Tertiary": {
-        "value": "#333333",
-        "type": "color"
-      },
-      "Inverse_Primary": {
-        "value": "#e2e2e2",
-        "type": "color"
-      },
-      "Inverse_Secundary": {
-        "value": "#cbcbcb",
-        "type": "color"
-      }
-    },
-    "Content": {
-      "Primary": {
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "Secundary": {
-        "value": "#cbcbcb",
-        "type": "color"
-      },
-      "Tertiary": {
-        "value": "#afafaf",
-        "type": "color"
-      },
-      "Inverse_Primary": {
-        "value": "#000000",
-        "type": "color"
-      },
-      "Inverse_Secundary": {
-        "value": "#333333",
-        "type": "color"
-      },
-      "Inverse_Tertiary": {
-        "value": "#545454",
-        "type": "color"
-      }
-    },
-    "Border": {
-      "State_Default": {
-        "value": "#a1a2c6",
-        "type": "color"
-      },
-      "State_Focus": {
-        "value": "#7b61ff",
-        "type": "color"
-      },
-      "State_Filled": {
-        "value": "#212345",
-        "type": "color"
-      },
-      "State_Error": {
-        "value": "#e5716c",
-        "type": "color"
-      },
-      "Selected": {
-        "value": "#000000",
-        "type": "color"
-      },
-      "Opaque": {
-        "value": "#e2e2e2",
-        "type": "color"
-      },
-      "Transparent": {
-        "value": "#00000014",
-        "type": "color"
-      }
-    },
-    "Shadows": {
-      "Shadow_15%": {
-        "value": "#00000026",
-        "type": "color"
-      },
-      "Shadow_30%": {
-        "value": "#0000004d",
-        "type": "color"
-      }
-    },
-    "States": {
-      "Accent": {
-        "Hover": {
-          "value": "#0000001a",
-          "type": "color"
-        },
-        "Disabled": {
-          "value": "#ffffff66",
-          "type": "color"
-        },
-        "Pressed": {
-          "value": "#0000004d",
-          "type": "color"
-        }
-      }
-    },
-    "Gradients": {
-      "Story": {
-        "value": "linear-gradient(180deg, #7b61ff 0%, #e5716c 100%)",
-        "type": "color"
-      },
-      "Illustrations": {
-        "value": "#ffffff",
         "type": "color"
       }
     },
