@@ -17,6 +17,7 @@
     }
     h4 {
       @include titleLarge;
+      color: var(--light-content-primary);
       padding: 10px;
     }
   }

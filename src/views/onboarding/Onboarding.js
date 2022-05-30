@@ -3,7 +3,7 @@ import ButtonComponent from "../../components/button/Button";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import illustrator_icon from "../../assets/img/illustrator_modal.svg";
-
+import { arrow_right } from "../logIn/LogIn";
 import "./onboarding.scss";
 
 const style = {
@@ -57,8 +57,13 @@ const Onboarding = () => {
             </div>
           </div>
           <div className="footer-modal grid grid-cols-1 md:grid-cols-2 gap-4">
-            <ButtonComponent text="Skip" btnStyle="btn-primary" />
-            <ButtonComponent text="Continue" btnStyle="btn-outline" />
+            <ButtonComponent text="Skip" btnStyle="btn-outline" />
+            <ButtonComponent
+              text="Continue"
+              btnStyle="btn-primary"
+              icon={arrow_right}
+              onClick={handleClose}
+            />
           </div>
         </div>
       </Box>

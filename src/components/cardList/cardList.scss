@@ -8,8 +8,9 @@
     display: inline-block;
     margin-left: 16px;
     position: relative;
+    color: var(--light-content-tertiary);
     &.selected {
-      color: #6b6b6b;
+      color: var(--light-content-primary);
       &::after {
         content: "";
         position: absolute;
@@ -19,7 +20,7 @@
         width: 10px;
         height: 10px;
         margin: 0 auto;
-        background-color: #7b61ff;
+        background-color: var(--light-principal-accent);
         border-radius: 20px;
         display: inline-block;
       }

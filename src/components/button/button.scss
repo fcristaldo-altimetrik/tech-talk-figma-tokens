@@ -1,3 +1,5 @@
+@import "../../mixins.scss";
+
 .btn {
   border-radius: 100px;
   width: 100%;
@@ -10,10 +12,18 @@
 .btn-primary {
   color: var(--light-content-inverse-primary);
   background: var(--light-backgound-inverse-primary);
+  &:hover {
+    @include dp_03_shadow;
+  }
 }
 
 .btn-outline {
   color: var(--light-content-primary);
   border-width: 1px;
   border-color: var(--light-border-state-filled);
+  &:hover {
+    color: var(--light-content-inverse-primary);
+    background: var(--light-backgound-inverse-primary);
+    @include dp_03_shadow;
+  }
 }

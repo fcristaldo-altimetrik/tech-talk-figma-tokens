@@ -12,6 +12,7 @@
     color: var(--light-principal-primary-a);
   }
   .footer-modal {
+    display: flex;
     margin: 0 auto;
     max-width: 500px;
     .btn {
@@ -30,19 +31,30 @@
 @media only screen and (max-width: 992px) {
   .modal-onboarding {
     width: 100%;
-    position: fixed;
+    position: fixed !important;
+    top: auto !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    transform: none !important;
     padding: 0px;
+    max-width: 992px !important;
     h3,
     p {
       color: var(--light-principal-primary-b);
     }
     .footer-modal {
-      .btn-primary {
-        color: var(--light-principal-primary-b);
-      }
+      margin-top: 2rem;
+      flex-direction: column-reverse;
       .btn-outline {
+        color: var(--light-principal-primary-b);
+        border: none;
+      }
+      .btn-primary {
         color: var(--light-principal-primary-a);
         background: var(--light-backgound-primary);
+        path {
+          stroke: var(--light-principal-primary-a);
+        }
       }
       .btn {
         margin-top: 0;
