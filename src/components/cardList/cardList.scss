@@ -1,20 +1,27 @@
+@import "../../mixins.scss";
 .tabs {
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 35px;
+  overflow-x: auto;
+  overflow-y: visible;
+  height: 50px;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  cursor: pointer;
   .tab {
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 28px;
+    @include titleMedium();
     display: inline-block;
     margin-left: 16px;
     position: relative;
+    white-space: nowrap;
     color: var(--light-content-tertiary);
     &.selected {
       color: var(--light-content-primary);
       &::after {
         content: "";
         position: absolute;
-        bottom: -11px;
+        bottom: 10px;
         left: 0;
         right: 0;
         width: 10px;

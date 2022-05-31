@@ -11,10 +11,15 @@
   }
   .list-item {
     li {
+      color: var(--light-content-inverse-secundary);
       margin-left: 30px;
       @include bodySmall;
       i {
         display: inline-block;
+        opacity: 0.2;
+      }
+      &.active {
+        color: var(--light-content-primary);
       }
     }
     .brand {
@@ -24,14 +29,16 @@
       border: 1px solid rgba(0, 0, 0, 0.08);
       border-radius: 16px;
       padding: 10px;
-      color: var(--light-content-tertiary);
     }
+
     .category_home {
       background-image: url("../../assets/icon/home.svg");
       background-repeat: no-repeat;
       width: 25px;
       height: 25px;
       vertical-align: middle;
+      opacity: 1;
+      color: var(--light-content-primary);
     }
     .icon_search {
       background-image: url("../../assets/icon/search-normal.svg");
@@ -81,6 +88,7 @@
           i {
             display: block;
             margin: 0 auto;
+            opacity: 0.2;
           }
         }
         .box-search {
@@ -88,7 +96,9 @@
         }
       }
     }
-
+    .category_home {
+      opacity: 1;
+    }
     .name-mobile {
       display: block;
     }

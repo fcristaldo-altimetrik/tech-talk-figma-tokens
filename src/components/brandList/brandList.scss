@@ -2,6 +2,9 @@
   max-width: 1120px;
   margin: 10px auto;
   overflow: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
   .description-brand {
     width: 70px;
     height: 100px;

@@ -18,7 +18,7 @@ const Topbar = () => {
           </li>
           <li>
             <ul className="list-item">
-              <li>
+              <li className="active">
                 <i className="category_home"></i> Home
               </li>
               <li>
