@@ -12,6 +12,9 @@
   background-color: var(--light-backgound-inverse-primary);
   height: 100vh;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .bg-white .log-in,
 .bg-image img {
@@ -21,16 +24,34 @@
   transform: translate(50%, -50%);
 }
 
+.log-in {
+  .input::placeholder,
+  .input {
+    color: var(--light-content-primary);
+  }
+}
+
 .title {
   @include displayLarge;
+  color: var(--light-content-primary);
 }
 .paragraph {
   @include titleSmall;
+  color: var(--light-content-primary);
   text-align: center;
   margin-top: 24px;
   a {
     text-decoration: var(--global-text-decoration-underline);
   }
+}
+.image-container {
+  path {
+    fill: var(--light-content-inverse-primary);
+  }
+}
+
+.MuiInputAdornment-root path {
+  stroke: var(--light-content-primary);
 }
 @media only screen and (max-width: 992px) {
   .bg-hidden {

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ButtonComponent from "../../components/button/Button";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
-import illustrator_icon from "../../assets/img/illustrator_modal.svg";
+import { illustrator_modal } from "../../assets/img/illustrator_modal";
 import { arrow_right } from "../logIn/LogIn";
 import "./onboarding.scss";
 
@@ -29,13 +29,7 @@ const Onboarding = () => {
       aria-describedby="modal-modal-description"
     >
       <Box sx={style} className="modal-onboarding">
-        <div className="img mobile">
-          <img
-            src={illustrator_icon}
-            title="illustrator_icon"
-            alt="illustrator_icon"
-          />
-        </div>
+        <div className="img mobile">{illustrator_modal}</div>
         <div className="bg-dark-mobile">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 modal-body">
             <div className="col-span-2">
@@ -48,13 +42,7 @@ const Onboarding = () => {
                 centuries
               </p>
             </div>
-            <div className="img desktop">
-              <img
-                src={illustrator_icon}
-                title="illustrator_icon"
-                alt="illustrator_icon"
-              />
-            </div>
+            <div className="img desktop">{illustrator_modal}</div>
           </div>
           <div className="footer-modal grid grid-cols-1 md:grid-cols-2 gap-4">
             <ButtonComponent text="Skip" btnStyle="btn-outline" />

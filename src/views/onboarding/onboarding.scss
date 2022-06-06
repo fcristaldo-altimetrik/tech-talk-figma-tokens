@@ -2,6 +2,7 @@
 
 .modal-onboarding {
   padding: 32px;
+  background: var(--light-backgound-secundary) !important;
   h3 {
     color: var(--light-principal-primary-a);
     @include titleLarge;
@@ -20,12 +21,22 @@
     }
   }
 }
+.img path {
+  stroke: var(--light-gradients-illustrations);
+  fill: var(--light-gradients-illustrations) !important;
+}
 
 .desktop {
   display: block;
+  svg {
+    width: -webkit-fill-available;
+  }
 }
 .mobile {
   display: none;
+  svg {
+    width: -webkit-fill-available;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -76,6 +87,7 @@
     img {
       position: absolute;
       bottom: -14px;
+      width: fit-content;
     }
   }
 }

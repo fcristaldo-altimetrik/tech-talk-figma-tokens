@@ -1014,6 +1014,166 @@
   "Light": {
     "Principal": {
       "PrimaryA": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "PrimaryB": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "Accent": {
+        "value": "#7b61ff",
+        "type": "color"
+      },
+      "Negative": {
+        "value": "#e5716c",
+        "type": "color"
+      },
+      "Positive": {
+        "value": "#71c8c1",
+        "type": "color"
+      },
+      "Info": {
+        "value": "#7199c8",
+        "type": "color"
+      }
+    },
+    "Backgound": {
+      "Primary": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "Secundary": {
+        "value": "#f6f6f6",
+        "type": "color"
+      },
+      "Tertiary": {
+        "value": "#eeeeee",
+        "type": "color"
+      },
+      "Inverse_Primary": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "Inverse_Secundary": {
+        "value": "#1f1f1f",
+        "type": "color"
+      }
+    },
+    "Content": {
+      "Primary": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "Secundary": {
+        "value": "#545454",
+        "type": "color"
+      },
+      "Tertiary": {
+        "value": "#6b6b6b",
+        "type": "color"
+      },
+      "Inverse_Primary": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "Inverse_Secundary": {
+        "value": "#cbcbcb",
+        "type": "color"
+      }
+    },
+    "Border": {
+      "State_Default": {
+        "value": "#a1a2c6",
+        "type": "color"
+      },
+      "State_Focus": {
+        "value": "#7b61ff",
+        "type": "color"
+      },
+      "State_Filled": {
+        "value": "#212345",
+        "type": "color"
+      },
+      "State_Error": {
+        "value": "#e5716c",
+        "type": "color"
+      },
+      "Selected": {
+        "value": "#000000",
+        "type": "color"
+      },
+      "Opaque": {
+        "value": "#e2e2e2",
+        "type": "color"
+      },
+      "Transparent": {
+        "value": "#00000014",
+        "type": "color"
+      }
+    },
+    "Shadows": {
+      "Shadow_15%": {
+        "value": "#00000026",
+        "type": "color"
+      },
+      "Shadow_30%": {
+        "value": "#0000004d",
+        "type": "color"
+      }
+    },
+    "States": {
+      "Accent": {
+        "Hover": {
+          "value": "#0000001a",
+          "type": "color"
+        },
+        "Disabled": {
+          "value": "#ffffff66",
+          "type": "color"
+        },
+        "Pressed": {
+          "value": "#0000004d",
+          "type": "color"
+        }
+      }
+    },
+    "Gradients": {
+      "Story": {
+        "value": "linear-gradient(180deg, #7b61ff 0%, #e5716c 100%)",
+        "type": "color"
+      },
+      "Illustrations": {
+        "value": "linear-gradient(180deg, #7b61ff 0%, #e5716c 100%)",
+        "type": "color"
+      }
+    },
+    "Disabled": {
+      "Background": {
+        "Primary_Disabled": {
+          "value": "#e3e3e3",
+          "type": "color"
+        },
+        "Inverse_Primary_Disabled": {
+          "value": "#727272",
+          "type": "color"
+        }
+      },
+      "Content": {
+        "Disabled": {
+          "value": "#828394",
+          "type": "color"
+        },
+        "Inverse_Disabled": {
+          "value": "#afafaf",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "DarkMode": {
+    "Principal": {
+      "PrimaryA": {
         "value": "#ffffff",
         "type": "color"
       },
@@ -1079,6 +1239,10 @@
       },
       "Inverse_Secundary": {
         "value": "#333333",
+        "type": "color"
+      },
+      "Inverse_Tertiary": {
+        "value": "#545454",
         "type": "color"
       }
     },

@@ -11,3 +11,35 @@
 body {
   font-family: var(--global-font-families-poppins);
 }
+
+
+.MuiTypography-root,
+.MuiCheckbox-root,
+.MuiInput-root,
+.MuiInputLabel-root,
+.MuiInput-input,
+.MuiInput-input::placeholder{
+  color: var(--light-content-primary) !important;
+}
+
+.MuiCheckbox-root path{
+  stroke: var(--light-border-selected) !important;
+  fill: var(--light-border-selected) !important;
+}
+
+.MuiInput-root:before{
+  border-bottom-color: var(--light-border-state-default) !important;
+}
+
+.MuiInput-root:after{
+  border-bottom-color: var(--light-border-state-default) !important;
+}
+
+.arrow_right path{
+  stroke: var(--light-content-inverse-primary);
+  content: var(--light-content-inverse-primary);
+}
+
+.App{
+  background: var(--light-backgound-secundary);
+}

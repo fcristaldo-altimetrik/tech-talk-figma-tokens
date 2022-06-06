@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 import ButtonComponent from "../../components/button/Button";
 
-import welcome_icon from "../../assets/icon/welcome_boy.svg";
+import { welcome_boy } from "../../assets/icon/welcome_boy.jsx";
 
 import FormGroup from "@mui/material/FormGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
@@ -155,6 +155,7 @@ const LogIn = () => {
                 Mobile number or email
               </InputLabel>
               <Input
+                className="input"
                 id="standard-basic"
                 type={"text"}
                 endAdornment={
@@ -194,14 +195,14 @@ const LogIn = () => {
               icon={arrow_right}
             />
             <p className="paragraph">
-              If you don't have an account,
-              <a href="#"> Sign up</a>
+              If you don't have an account, <a href="#">Sign up</a>
             </p>
           </div>
         </div>
       </div>
       <div className="bg-image bg-hidden">
-        <img src={welcome_icon} alt="welcome_icon" title="welcome icon" />
+        <div className="image-container">{welcome_boy}</div>
+        {/* <img src={welcome_icon} alt="welcome_icon" title="welcome icon" /> */}
       </div>
     </div>
   );
