@@ -2,7 +2,15 @@
   display: none;
   color: var(--light-content-primary);
   .brand {
-    max-width: 70px;
+    max-width: 80px;
+    & > svg {
+      height: auto;
+      max-width: 80px !important;
+      #SOLDI path {
+        fill: var(--light-content-primary);
+        stroke: var(--light-content-primary);
+      }
+    }
   }
   li {
     padding: 10px;

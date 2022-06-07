@@ -24,6 +24,14 @@
     }
     .brand {
       padding: 5px;
+      & > svg {
+        max-width: 134px !important;
+        height: auto;
+        #SOLDI path {
+          fill: var(--light-content-primary);
+          stroke: var(--light-content-primary);
+        }
+      }
     }
     .box-search {
       border: 1px solid rgba(0, 0, 0, 0.08);

@@ -3,7 +3,7 @@ import { category } from "../../assets/icon/category";
 import { home } from "../../assets/icon/home";
 import { search_normal } from "../../assets/icon/search-normal";
 import { user } from "../../assets/icon/user";
-import brand from "../../assets/img/logo.svg";
+import { logo } from "../../assets/img/logo";
 
 import "./topbar.scss";
 
@@ -14,9 +14,7 @@ const Topbar = () => {
         <ul className="flex justify-between">
           <li className="hidden-mobile">
             <ul className="list-item">
-              <li>
-                <img src={brand} alt="solid" title="solid" className="brand" />
-              </li>
+              <li className="brand">{logo}</li>
               <li>Lifetime cashback: $345.32</li>
             </ul>
           </li>
